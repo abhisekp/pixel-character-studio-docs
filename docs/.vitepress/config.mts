@@ -1,0 +1,2 @@
+import { defineConfig } from 'vitepress';
+export default defineConfig({title:'Pixel Character Studio',description:'Game asset design and production guide',base:'/pixel-character-studio-docs/',themeConfig:{nav:[{text:'GDD',link:'/gdd'},{text:'Releases',link:'https://github.com/abhisekp/pixel-character-studio-docs/releases'}],sidebar:[{text:'Overview',link:'/'},{text:'Game Design Document',link:'/gdd'},{text:'Desktop & updates',link:'/desktop'},{text:'Release automation',link:'/release'}]}});
